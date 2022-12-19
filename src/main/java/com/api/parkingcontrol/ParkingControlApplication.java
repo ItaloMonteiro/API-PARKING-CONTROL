@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController //vai criar um bin do tipo controller para que seja gerado a dependência quando for necessário.
+@RestController //vai criar um bean do tipo controller para que seja gerado a dependência quando for necessário.
 public class ParkingControlApplication {
 // nesta classe que inicializaremos a aplicação
 	public static void main(String[] args) {
